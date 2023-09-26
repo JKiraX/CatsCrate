@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2b74791dfe.js" crossorigin="anonymous"></script>
+  <script src="JavaScript.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kreon&display=swap" rel="stylesheet">
+  <title>CatsCrate</title>
+  <link rel="stylesheet" href="catsCrate.css"></head>
+  
+<body>
+    <!-- The form -->
+<div class="form-popup" id="myForm">
+    <form action="authenticate.php" class="form-container">
+      <h1>Login</h1>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <h2 style="font-size: 15px; color: #082B44;">Don't have an Account? <a href="SignUp.php">Sign Up</a></h2>
+      <button type="submit" class="btn">Login</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  <div class="fixed-head">
+    <h2 class="headerBar">FREE DELIVERY ON ORDERS OVER R300**</h2>
+    </div>
+    <nav>
+  
+      <div class="box1" style="display: in-line";>
+        <input class="search" placeholder="Search entire store..." type="text" >
+        <input type="submit" class="Go" value="Search">
+       </div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.php">HOME</a></a></li>
+            <li><a href="OurStory.html">OUR STORY</a></a></li>
+            <li><a href="Shop.php">SHOP</a></a></li>
+            <li><a href="CatCare.php">CAT CARE</a></a></li>
+         
+          
+            <div class="nav-links-right">
+              
+            <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping" style='font-size:28px;color:#d8061f; text-align: right;'></i></a></a></li>
+            <li><a href="Account.html"><i class='fa-solid fa-user' style='font-size:28px; color:#d8061f;'></i></a></a></li>
+            <li><button class="open-button" onclick="openForm()">Login/Sign Up</button></li>
+    
+    
+      
+          </div>
+          </ul>
+          <a href="index.php"><img src="images/CatsCrate.png" class="logo"></a>
+          </div>
+      </nav>
+
+  <section class="user-profile">
+  <div class="container">
+    <div class="navigation-panel">
+        <img src="images/user.png" alt="user-icon" style="max-height: fit-content; max-width: 150px;">
+      <h2>John Doe</h2>
+      <p style="margin-left: 20px; color: #7a7979;">johndoe@gmail.com</p>
+      <ul>
+        <li><a href="Account.html">Personal Information</a></li>
+        <li><a href="Account2.html">Recurring Deliveries</a></li>
+        <li><a href="Account3.html">Order History</a></li>
+      </ul>
+    </div>
+    <div class="user-content">
+      <h2>Recurring Deliveries</h2>
+      <p>
+        View and manage your recurring deliveries.
+      </p>
+      <div class="recurring-deliveries">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Next Delivery Date</th>
+              <th>Frequency</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cat Complete Cat Food 3kg</td>
+              <td>May 25, 2023</td>
+              <td>Every Month</td>
+              <td>
+                <a href="#">Edit</a> |
+                <a href="#">Cancel</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Whiskas Pouch Food</td>
+              <td>May 30, 2023</td>
+              <td>Every Week</td>
+              <td>
+                <a href="#">Edit</a> |
+                <a href="#">Cancel</a>
+              </td>
+            </tr>
+            <!-- Add more rows for other recurring deliveries -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-columns">
+    <div class="column">
+      <h3><a href="OurStory.html" style="text-decoration: none; color: white;">Our Story</a></a></h3>
+      <h3><a href="contactUs.php" style="text-decoration: none; color: white;">Contact Us</a></a></h3>
+      <h3>Privacy Policy</h3>
+    </div>
+    <div class="column">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="column">
+      <h3>Subscribe to our Newsletter</h3>
+      <div class="newsletter">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  </body>
+  </html>

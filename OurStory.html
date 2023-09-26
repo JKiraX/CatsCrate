@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2b74791dfe.js" crossorigin="anonymous"></script>
+  <script src="JavaScript.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kreon&display=swap" rel="stylesheet">
+  <title>CatsCrate</title>
+  <link rel="stylesheet" href="catsCrate.css"></head>
+  
+<body>
+  <!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="authenticate.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <h2 style="font-size: 15px; color: #082B44;">Don't have an Account? <a href="SignUp.php">Sign Up</a></h2>
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>  
+  <div class="fixed-head">
+    <h2 class="headerBar">FREE DELIVERY ON ORDERS OVER R300**</h2>
+    </div>
+    <nav>
+  
+      <div class="box1" style="display: in-line";>
+        <input class="search" placeholder="Search entire store..." type="text" >
+        <input type="submit" class="Go" value="Search">
+       </div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="OurStory.html">OUR STORY</a></a></li>
+            <li><a href="Shop.php">SHOP</a></a></li>
+            <li><a href="CatCare.php">CAT CARE</a></a></li>
+         
+          
+            <div class="nav-links-right">
+              
+            <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping" style='font-size:28px;color:#d8061f; text-align: right;'></i></a></a></li>
+            <li><a href="Account.html"><i class='fa-solid fa-user' style='font-size:28px; color:#d8061f;'></i></a></a></li>
+            <li><button class="open-button" onclick="openForm()">Login/Sign Up</button></li>
+    
+    
+      
+          </div>
+          </ul>
+          <a href="index.php"><img src="images/CatsCrate.png" class="logo"></a>
+          </div>
+      </nav>
+  <div class="image-container">
+    <div class="ourStory-banner">
+<section class="ourStory">
+    <h1>Our Story</h1>
+</div>
+    <img src="images/sarah-brown-vBy4AiS3-Is-unsplash.jpg" alt="cat-cute">
+  </div>
+  
+  <div class="our-story-description">
+    <p>Welcome to CatsCrate, your premier online destination for all things feline! 
+        We are a dedicated e-commerce site specializing in providing cat owners with 
+        a curated selection of high-quality products tailored specifically for our beloved feline friends.</p> <br>
+       <p> At CatsCrate, we understand that cats hold a special place in our hearts and homes. 
+        That's why we've made it our mission to cater to the unique needs and desires of cat owners like you. 
+        From essential supplies to luxurious indulgences, we offer a wide range of products that combine functionality,
+         style, and comfort.</p><br>
+
+        <p>We take pride in sourcing the finest cat products from trusted brands and independent artisans who share our passion for feline well-being.
+             Whether it's premium nutrition, stylish furniture, interactive toys, cozy bedding, or innovative grooming tools, 
+            our collection is thoughtfully curated to meet the diverse requirements of every cat and their human companions.</p><br>
+            <p>As fellow cat lovers, we are committed to providing exceptional customer service, prompt shipping, and a hassle-free return policy. 
+                Your satisfaction and your cat's happiness are at the forefront of everything we do.
+                Join our vibrant community of cat enthusiasts and experience the joy of shopping with CatsCrate. 
+                Whether you're a seasoned cat owner or a first-time feline companion,
+                 we're here to support you in creating a nurturing environment and celebrating the unique bond you share with your beloved cat.</p><br>
+                 <p style="font-weight: bold;">Thank you for choosing CatsCrate as your trusted source for premium cat products. 
+                    Together, let's create a world where every cat receives the love, care, and attention they deserve.</p><br><br>
+  </div>
+</section>
+<footer>
+  <div class="footer-columns">
+    <div class="column">
+      <h3><a href="OurStory.html" style="text-decoration: none; color: white;">Our Story</a></a></h3>
+      <h3><a href="ContactUs.php" style="text-decoration: none; color: white;">Contact Us</a></a></h3>
+      <h3>Privacy Policy</h3>
+    </div>
+    <div class="column">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="column">
+      <h3>Subscribe to our Newsletter</h3>
+      <div class="newsletter">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  
+
+
+
+</body>
+</html>
